@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Search Songs</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.mp3streams/?url=url&amp;mode=24&amp;name=Search+Songs&amp;iconimage=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.audio.mp3streams%5Cart%2Fsearchsongs.jpg&amp;list=search songs&lt;&gt;url&lt;&gt;C:\\Users\\nrobe\\AppData\\Roaming\\Kodi\\addons\\plugin.audio.mp3streams\\art/searchsongs.jpg&amp;type=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Search Artists</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.audio.mp3streams%5cart%2fsearchartists.jpg/</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.mp3streams/?url=url&amp;mode=24&amp;name=Search+Artists&amp;iconimage=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.audio.mp3streams%5Cart%2Fsearchartists.jpg&amp;list=search artists&lt;&gt;url&lt;&gt;C:\\Users\\nrobe\\AppData\\Roaming\\Kodi\\addons\\plugin.audio.mp3streams\\art/searchartists.jpg&amp;type=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>New Albums</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.audio.mp3streams%5cart%2fnewalbums.jpg/</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.mp3streams/?url=http%3A%2F%2Fmusicmp3.ru%2Fnew_albums.html&amp;mode=12&amp;name=New+Albums&amp;iconimage=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.audio.mp3streams%5Cart%2Fnewalbums.jpg&amp;list=new albums&lt;&gt;http://musicmp3.ru/new_albums.html&lt;&gt;C:\\Users\\nrobe\\AppData\\Roaming\\Kodi\\addons\\plugin.audio.mp3streams\\art/newalbums.jpg&amp;type=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Top Albums</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.audio.mp3streams%5cart%2ftopalbums.jpg/</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.mp3streams/?url=http%3A%2F%2Fmusicmp3.ru%2Fgenres.html&amp;mode=12&amp;name=Top+Albums&amp;iconimage=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.audio.mp3streams%5Cart%2Ftopalbums.jpg&amp;list=top albums&lt;&gt;http://musicmp3.ru/genres.html&lt;&gt;C:\\Users\\nrobe\\AppData\\Roaming\\Kodi\\addons\\plugin.audio.mp3streams\\art/topalbums.jpg&amp;type=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.audio.tuneinradio</defaultID>
+		<label>TuneIn Radio</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.tuneinradio",return)</action>
+		</shortcut>
+	</shortcuts>

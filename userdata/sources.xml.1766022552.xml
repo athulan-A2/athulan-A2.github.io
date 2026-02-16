@@ -1,0 +1,30 @@
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+    </programs>
+    <video>
+        <default pathversion="1"></default>
+    </video>
+    <music>
+        <default pathversion="1"></default>
+    </music>
+    <pictures>
+        <default pathversion="1"></default>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+        <source>
+            <name>repo</name>
+            <path pathversion="1">http://team-enigma.xyz/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.buildimages</name>
+            <path pathversion="1">https://team-enigma.xyz/repo/buildimages/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </files>
+    <games>
+        <default pathversion="1"></default>
+    </games>
+</sources>

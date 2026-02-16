@@ -1,0 +1,50 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.Rising.Tides</defaultID>
+		<label>Rising Tides</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.Rising.Tides",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/sports.json</defaultID>
+		<label>MAD Titan</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fmagnetic.website%2fmenu%2520icons%2fwolfgirl%2520mad%2520titan%2520sports%2520icons%2fLIVE%2520SPORTS.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/search_json/https://magnetic.website/jet/TVGUIDE/TVGUIDE_Sports Networks.json?query=sports networks&amp;dialog=false",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.watchwrestling</defaultID>
+		<label>Watch Wrestling</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.watchwrestling",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.blsport</defaultID>
+		<label>BL Sports</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.blsport",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.sportscentral</defaultID>
+		<label>Sports Central</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.sportscentral",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.the-loop</defaultID>
+		<label>The Loop</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.the-loop",return)</action>
+		</shortcut>
+	</shortcuts>

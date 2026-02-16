@@ -1,0 +1,50 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Aliunde Just Click It</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fimgur.com%2fSs83qSe.jpg/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ajci/?mode=202&amp;iconimage=https%3A%2F%2Fimgur.com%2FSs83qSe.jpg&amp;fanart=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.ajci%5Cresources%5Cartwork%2Fbasic.png&amp;description=%5BCOLOR+aqua%5DAliunde+Just+Click+It+1%5B%2FCOLOR%5D+%5BCOLOR+yellow%5D%28Free+One+Click+Links%29%5B%2FCOLOR%5D&amp;url=1&amp;name=%5BCOLOR+aqua%5DAliunde+Just+Click+It+1%5B%2FCOLOR%5D+%5BCOLOR+yellow%5D%28Free+One+Click+Links%29%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=https%3A%2F%2Ffuse99.com%2Fzzconfig%2Fconfig.cfg&amp;last_id=16952fm487hkjl0af6wio&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=https%3A%2F%2Ffuse99.com%2Fzzconfig%2Fsearch_dood_db.db&amp;mypass=&amp;iconimage=https%3A%2F%2Fimgur.com%2FSs83qSe.jpg&amp;fanart=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.ajci%5Cresources%5Cartwork%2Fbasic.png&amp;description=%5BCOLOR+aqua%5DAliunde+Just+Click+It+1%5B%2FCOLOR%5D+%5BCOLOR+yellow%5D%28Free+One+Click+Links%29%5B%2FCOLOR%5D&amp;url=1&amp;name=%5BCOLOR+aqua%5DAliunde+Just+Click+It+1%5B%2FCOLOR%5D+%5BCOLOR+yellow%5D%28Free+One+Click+Links%29%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=https%3A%2F%2Ffuse99.com%2Fzzconfig%2Fconfig.cfg&amp;last_id=16952fm487hkjl0af6wio&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=https%3A%2F%2Ffuse99.com%2Fzzconfig%2Fsearch_dood_db.db&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22%5BCOLOR+aqua%5DAliunde+Just+Click+It+1%5B%2FCOLOR%5D+%5BCOLOR+yellow%5D%28Free+One+Click+Links%29%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22%5BCOLOR+aqua%5DAliunde+Just+Click+It+1%5B%2FCOLOR%5D+%5BCOLOR+yellow%5D%28Free+One+Click+Links%29%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22%22%7D&amp;video_data=%7B%22title%22%3A+%22%5BCOLOR+aqua%5DAliunde+Just+Click+It+1%5B%2FCOLOR%5D+%5BCOLOR+yellow%5D%28Free+One+Click+Links%29%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22%5BCOLOR+aqua%5DAliunde+Just+Click+It+1%5B%2FCOLOR%5D+%5BCOLOR+yellow%5D%28Free+One+Click+Links%29%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.free/get_list/https://mfirepo.github.io/hal/soap.json</defaultID>
+		<label>UK Soap Catchup</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.free%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free/get_list/https://mfirepo.github.io/hal/soap.json",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Latest Releases</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fmylostsoulspace.co.uk%2fimages%2fasg%2ficon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.asgard/?mode=189&amp;iconimage=https%3A%2F%2Fmylostsoulspace.co.uk%2Fimages%2Fasg%2Ficon.png&amp;fanart=https%3A%2F%2Fmylostsoulspace.co.uk%2Fimages%2Fasg%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fmylostsoulspace.co.uk%2FAddon-1%2FAddon%2Ftext%2Frd%2Ffree%2Ffree2024.xml&amp;name=%5BCOLOR%3Dwhite%5D2024+Movies%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=%5BCOLOR%3Dwhite%5D2024+Movies%5B%2FCOLOR%5D&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fmylostsoulspace.co.uk%2Fimages%2Fasg%2Ficon.png&amp;fanart=https%3A%2F%2Fmylostsoulspace.co.uk%2Fimages%2Fasg%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fmylostsoulspace.co.uk%2FAddon-1%2FAddon%2Ftext%2Frd%2Ffree%2Ffree2024.xml&amp;name=%5BCOLOR%3Dwhite%5D2024+Movies%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=%5BCOLOR%3Dwhite%5D2024+Movies%5B%2FCOLOR%5D&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22%5BCOLOR%3Dwhite%5D2024+Movies%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22%5BCOLOR%3Dwhite%5D2024+Movies%5B%2FCOLOR%5D%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D&amp;video_data=%7B%22title%22%3A+%22%5BCOLOR%3Dwhite%5D2024+Movies%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22%5BCOLOR%3Dwhite%5D2024+Movies%5B%2FCOLOR%5D%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.free/get_list/https://mfirepo.github.io/hal/shows.xml</defaultID>
+		<label>Free TV Shows</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.free%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free/get_list/https://mfirepo.github.io/hal/shows.xml",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.free/get_list/https://mfirepo.github.io/hal/thx.xml</defaultID>
+		<label>Free Movies</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.free%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free/get_list/https://mfirepo.github.io/hal/thx.xml",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Cams &amp; HDTS Releases</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fdm1Tk83.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.magicdragon/?mode=189&amp;iconimage=https%3A%2F%2Fi.imgur.com%2Fdm1Tk83.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2FU5nKN8r.jpg&amp;description=%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Ftombebbs1%2FMagicDragonKodi18%2Fmaster%2Fcams1.xml&amp;name=%5BB%5D%5BCOLORyellow%5DMD+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fi.imgur.com%2Fdm1Tk83.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2FU5nKN8r.jpg&amp;description=%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Ftombebbs1%2FMagicDragonKodi18%2Fmaster%2Fcams1.xml&amp;name=%5BB%5D%5BCOLORyellow%5DMD+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22%5BB%5D%5BCOLORyellow%5DMD+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D&amp;video_data=%7B%22title%22%3A+%22%5BB%5D%5BCOLORyellow%5DMD+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D",return)</action>
+		</shortcut>
+	</shortcuts>

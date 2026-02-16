@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Debrid Movies</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fcmanbuilds.com%2fNEW%2520BLACK%2520LIGHTING%2fart%2ficon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.blacklightning/?mode=189&amp;iconimage=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2FMOVIES%2FDebrid-Main.xml&amp;name=Debrid+Movies&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Debrid+Movies&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2FMOVIES%2FDebrid-Main.xml&amp;name=Debrid+Movies&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Debrid+Movies&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22Debrid+Movies%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Debrid+Movies%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D&amp;video_data=%7B%22title%22%3A+%22Debrid+Movies%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Debrid+Movies%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.free/get_list/https://mfirepo.github.io/hal/thx.xml</defaultID>
+		<label>Free Movies</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.free%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free/get_list/https://mfirepo.github.io/hal/thx.xml",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>[COLORwhite]Free Shows[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fLWBGiPh.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.wizz/?mode=189&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FLWBGiPh.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2F7ecKGeN.jpg&amp;description=Free+Shows&amp;url=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2FNEW_EPISODES%2Frecent_episodes.xml&amp;name=%5BCOLORwhite%5DFree+Shows%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FLWBGiPh.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2F7ecKGeN.jpg&amp;description=Free+Shows&amp;url=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2FNEW_EPISODES%2Frecent_episodes.xml&amp;name=%5BCOLORwhite%5DFree+Shows%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22%5BCOLORwhite%5DFree+Shows%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22Free+Shows%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D&amp;video_data=%7B%22title%22%3A+%22%5BCOLORwhite%5DFree+Shows%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22Free+Shows%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Documentaries</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fcmanbuilds.com%2fNEW%2520BLACK%2520LIGHTING%2fart%2ficon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.blacklightning/?mode=189&amp;iconimage=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2FDOCUMENTARIES%2FGENRES-BLACK.xml&amp;name=Documentaries&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Documentaries&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fcmanbuilds.com%2FNEW%2520BLACK%2520LIGHTING%2FDOCUMENTARIES%2FGENRES-BLACK.xml&amp;name=Documentaries&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Documentaries&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22Documentaries%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Documentaries%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D&amp;video_data=%7B%22title%22%3A+%22Documentaries%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Documentaries%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.free/get_list/https://mfirepo.github.io/hal/brit.json</defaultID>
+		<label>British Cinema</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.free%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free/get_list/https://mfirepo.github.io/hal/brit.json",return)</action>
+		</shortcut>
+	</shortcuts>

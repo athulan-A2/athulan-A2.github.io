@@ -1,0 +1,32 @@
+[B]4.10.1[/B]
+- add missing inputstreamhelper import to addon.py
+
+[B]4.10.0[/B]
+- add subtitles to VOD stream
+- enable rewinding in live stream and add subtitles to live stream
+
+[B]4.9.2[/B]
+- use hardcoded username to fix github action
+
+[B]4.9.1[/B]
+- exclude github actions when publishing to kodi repo
+
+[B]4.9.0[/B]
+- Update license to SPDX format in addon.xml
+- Fix radio title
+- Create kodi-addon-submitter.yml
+- Split live TV and radio shows into separate submenus
+
+[B]4.8.0[/B]
+Tilpasninger for Kodi v20 Nexus. Noe småfikser etter API-endringer // Adaptations for Kodi v20 Nexus. Some small fixes after some changes in the API
+
+[B]4.7.0[/B]
+- Fikset plugin etter API-endringer
+
+[B]4.6.1[/B]
+- Fikset plugin etter API-endringer
+
+[B]4.6.0[/B]
+- Tilpasninger for Kodi v17 Krypton.
+- Mulighet for å gå til serie fra hurtigmenyen
+- Fikset episodetittler

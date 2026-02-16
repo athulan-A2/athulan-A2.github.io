@@ -1,0 +1,66 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Hindi</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dhindi&amp;mode=11&amp;name=Recently+Added&amp;lang=hindi&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Telugu</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtelugu&amp;mode=11&amp;name=Recently+Added&amp;lang=telugu&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Tamil</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Malayalam</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmalayalam&amp;mode=11&amp;name=Recently+Added&amp;lang=malayalam&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Kannada</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dkannada&amp;mode=11&amp;name=Recently+Added&amp;lang=kannada&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Punjabi</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dpunjabi&amp;mode=11&amp;name=Recently+Added&amp;lang=punjabi&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Bengali</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dbengali&amp;mode=11&amp;name=Recently+Added&amp;lang=bengali&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Marathi</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmarathi&amp;mode=11&amp;name=Recently+Added&amp;lang=marathi&amp;description=",return)</action>
+		</shortcut>
+	</shortcuts>

@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>MD Cams</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fdm1Tk83.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.magicdragon/?mode=189&amp;iconimage=https%3A%2F%2Fi.imgur.com%2Fdm1Tk83.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2FU5nKN8r.jpg&amp;description=%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Ftombebbs1%2FMagicDragonKodi18%2Fmaster%2Fcams1.xml&amp;name=%5BB%5D%5BCOLORyellow%5DMD+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fi.imgur.com%2Fdm1Tk83.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2FU5nKN8r.jpg&amp;description=%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Ftombebbs1%2FMagicDragonKodi18%2Fmaster%2Fcams1.xml&amp;name=%5BB%5D%5BCOLORyellow%5DMD+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22%5BB%5D%5BCOLORyellow%5DMD+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D&amp;video_data=%7B%22title%22%3A+%22%5BB%5D%5BCOLORyellow%5DMD+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Cams%2FHDTS+Releases%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.free/get_list/https://mfirepo.github.io/hal/docsel.json</defaultID>
+		<label>FREE DOCS</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.free%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free/get_list/https://mfirepo.github.io/hal/docsel.json",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>MD Standup</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fdm1Tk83.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.magicdragon/?mode=189&amp;iconimage=https%3A%2F%2Fi.imgur.com%2Fdm1Tk83.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2FU5nKN8r.jpg&amp;description=%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Disney+Stand+Up%5B%2FB%5D%5B%2FCOLOR%5D&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Ftombebbs1%2FMagicDragonKodi18%2Fmaster%2Fstandup.xml&amp;name=%5BB%5D%5BCOLORyellow%5DMD+Stand+Up%5B%2FB%5D%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fi.imgur.com%2Fdm1Tk83.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2FU5nKN8r.jpg&amp;description=%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Disney+Stand+Up%5B%2FB%5D%5B%2FCOLOR%5D&amp;url=https%3A%2F%2Fraw.githubusercontent.com%2Ftombebbs1%2FMagicDragonKodi18%2Fmaster%2Fstandup.xml&amp;name=%5BB%5D%5BCOLORyellow%5DMD+Stand+Up%5B%2FB%5D%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22%5BB%5D%5BCOLORyellow%5DMD+Stand+Up%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Disney+Stand+Up%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D&amp;video_data=%7B%22title%22%3A+%22%5BB%5D%5BCOLORyellow%5DMD+Stand+Up%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22%5BB%5D%5BCOLORyellow%5DMagic+Dragon+Disney+Stand+Up%5B%2FB%5D%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.imdb.trailers</defaultID>
+		<label>IMDb Trailers</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.imdb.trailers",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.free/get_list/https://mfirepo.github.io/hal/brit.json</defaultID>
+		<label>British Cinema</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.free%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free/get_list/https://mfirepo.github.io/hal/brit.json",return)</action>
+		</shortcut>
+	</shortcuts>

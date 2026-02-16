@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>script.speedtester</defaultID>
+		<label>Speed Tester</label>
+		<label2>Program</label2>
+		<icon>DefaultAddon.png</icon>
+		<thumb>thumb</thumb>
+		<action>RunAddOn(script.speedtester)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Maintenance</label>
+		<label2>Program</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.program.enigmawizard%5cresources%5cicon.png/</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.enigmawizard/?url=&amp;mode=5&amp;name=%5BB%5D%5BCOLOR+yellow%5DMaintenance%5B%2FCOLOR%5D%5B%2FB%5D&amp;icon=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.program.enigmawizard%5Cresources%5Cicon.png&amp;fanart=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.program.enigmawizard%5Cresources%5Cfanart.jpg&amp;description=%5BB%5D%5BCOLOR+yellow%5DMaintenance+Tools%5B%2FCOLOR%5D%5B%2FB%5D&amp;name2=&amp;version=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>13009</defaultID>
+		<label>Exit Kodi</label>
+		<label2>Kodi Command</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>Quit</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Build Menu</label>
+		<label2>Program</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.program.enigmawizard%5cresources%5cicon.png/</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.enigmawizard/?url=&amp;mode=1&amp;name=%5BB%5D%5BCOLOR+yellow%5DBuild+Menu%5B%2FCOLOR%5D%5B%2FB%5D&amp;icon=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.program.enigmawizard%5Cresources%5Cicon.png&amp;fanart=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.program.enigmawizard%5Cresources%5Cfanart.jpg&amp;description=%5BB%5D%5BCOLOR+yellow%5DInstall+a+build.%5B%2FCOLOR%5D%5B%2FB%5D&amp;name2=&amp;version=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Authorize Services</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://special%3a%2f%2fhome%2faddons%5cplugin.program.autowidget%5cresources%5cmedia%5cicon%5cfolder-shortcut.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.program.autowidget/?mode=group&amp;group=settings-1706139863.8247814&amp;refresh=&amp;reload=",return)</action>
+		</shortcut>
+	</shortcuts>

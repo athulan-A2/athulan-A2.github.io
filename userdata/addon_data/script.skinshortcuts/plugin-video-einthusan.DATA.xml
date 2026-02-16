@@ -1,0 +1,66 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>31328</defaultID>
+		<label>Hindi</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Hindi&amp;lang=hindi&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>20434</defaultID>
+		<label>Telugu</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Telugu&amp;lang=telugu&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Tamil</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2f%2f%2fimg.einthusan.io%2fetv%2fs3%2fetc%2fimg%2ftamil.jpg/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>135</defaultID>
+		<label>Malayalam</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Malayalam&amp;lang=malayalam&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Kannada</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Kannada&amp;lang=kannada&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Punjabi</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Punjabi&amp;lang=punjabi&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>652</defaultID>
+		<label>Bengali</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Bengali&amp;lang=bengali&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>20459</defaultID>
+		<label>Marathi</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Marathi&amp;lang=marathi&amp;description=",return)</action>
+		</shortcut>
+	</shortcuts>

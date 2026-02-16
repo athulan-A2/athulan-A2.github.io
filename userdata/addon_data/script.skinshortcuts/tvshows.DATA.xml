@@ -1,0 +1,26 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Nrk Tv</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.nrk",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Zee Tamil</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.zee5/?action=list_shows&amp;showid=0-8-6819&amp;page=1",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Indian Streams</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://sddev.serial.stream",return)</action>
+		</shortcut>
+	</shortcuts>

@@ -1,0 +1,58 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>One Click Movies</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fimgur.com%2fybMmvvW.jpg/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ajci/?mode=202&amp;iconimage=https%3A%2F%2Fimgur.com%2FybMmvvW.jpg&amp;fanart=https%3A%2F%2Fimgur.com%2FIMsfhhA.jpg&amp;description=Doodstream%0AFolder+ID%3A+%5BCOLOR+blue%5D85259%5B%2FCOLOR%5D&amp;url=1&amp;name=%5BCOLOR+aqua%5DCategory+04+-+Movies%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=https%3A%2F%2Ffuse99.com%2Fzzconfig%2Fconfig.cfg&amp;last_id=16952fm487hkjl0af6wio&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=85259&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fimgur.com%2FybMmvvW.jpg&amp;fanart=https%3A%2F%2Fimgur.com%2FIMsfhhA.jpg&amp;description=Doodstream%0AFolder+ID%3A+%5BCOLOR+blue%5D85259%5B%2FCOLOR%5D&amp;url=1&amp;name=%5BCOLOR+aqua%5DCategory+04+-+Movies%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=https%3A%2F%2Ffuse99.com%2Fzzconfig%2Fconfig.cfg&amp;last_id=16952fm487hkjl0af6wio&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=85259&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22%5BCOLOR+aqua%5DCategory+04+-+Movies%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22Doodstream%5CnFolder+ID%3A+%5BCOLOR+blue%5D85259%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22202%22%2C+%22id%22%3A+%2285259%22%7D&amp;video_data=%7B%22title%22%3A+%22%5BCOLOR+aqua%5DCategory+04+-+Movies%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22Doodstream%5CnFolder+ID%3A+%5BCOLOR+blue%5D85259%5B%2FCOLOR%5D%22%2C+%22Tag%22%3A+%22202%22%2C+%22id%22%3A+%2285259%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Dradis Movies (Paid)</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.dradis%5cresources%5cmedia%5cexuary%5cmovies.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.dradis/?action=movieNavigator",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Fen Movies (Paid)</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fpmyCOx7.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.fen/?name=32028&amp;iconImage=movies&amp;mode=navigator.main&amp;action=MovieList",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>POV Movies (Paid)</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.pov%5cresources%5cmedia%5cmovies.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.pov/?name=32028&amp;iconImage=movies.png&amp;mode=navigator.main&amp;action=MovieList",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Asgard Movies (Free)</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fmylostsoulspace.co.uk%2fimages%2fasg%2ficon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.asgard/?mode=189&amp;iconimage=https%3A%2F%2Fmylostsoulspace.co.uk%2Fimages%2Fasg%2Ficon.png&amp;fanart=https%3A%2F%2Fmylostsoulspace.co.uk%2Fimages%2Fasg%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fmylostsoulspace.co.uk%2FAddon-1%2FAddon%2Ftext%2Frd%2Ffree%2Ffree2023.xml&amp;name=%5BCOLOR%3Dwhite%5D2023+Movies%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=%5BCOLOR%3Dwhite%5D2023+Movies%5B%2FCOLOR%5D&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fmylostsoulspace.co.uk%2Fimages%2Fasg%2Ficon.png&amp;fanart=https%3A%2F%2Fmylostsoulspace.co.uk%2Fimages%2Fasg%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fmylostsoulspace.co.uk%2FAddon-1%2FAddon%2Ftext%2Frd%2Ffree%2Ffree2023.xml&amp;name=%5BCOLOR%3Dwhite%5D2023+Movies%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=%5BCOLOR%3Dwhite%5D2023+Movies%5B%2FCOLOR%5D&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22%5BCOLOR%3Dwhite%5D2023+Movies%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22%5BCOLOR%3Dwhite%5D2023+Movies%5B%2FCOLOR%5D%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D&amp;video_data=%7B%22title%22%3A+%22%5BCOLOR%3Dwhite%5D2023+Movies%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22%5BCOLOR%3Dwhite%5D2023+Movies%5B%2FCOLOR%5D%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Wizz Movies (Free)</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fLWBGiPh.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.wizz/?mode=189&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FLWBGiPh.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2F7ecKGeN.jpg&amp;description=Free+Movies&amp;url=https%3A%2F%2Fmfirepo.github.io%2Fhal%2Fthx.xml&amp;name=%5BCOLORwhite%5DFree+Movies%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fi.imgur.com%2FLWBGiPh.png&amp;fanart=https%3A%2F%2Fi.imgur.com%2F7ecKGeN.jpg&amp;description=Free+Movies&amp;url=https%3A%2F%2Fmfirepo.github.io%2Fhal%2Fthx.xml&amp;name=%5BCOLORwhite%5DFree+Movies%5B%2FCOLOR%5D&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=+&amp;original_title=+&amp;id=+&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22%5BCOLORwhite%5DFree+Movies%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22Free+Movies%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D&amp;video_data=%7B%22title%22%3A+%22%5BCOLORwhite%5DFree+Movies%5B%2FCOLOR%5D%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22+%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22Free+Movies%22%2C+%22Tag%22%3A+%22None%22%2C+%22id%22%3A+%22+%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>THX Movies (Free)</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cscript.thx.artwork%5cresources%5cmedia%5cthx%5cmovies.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.thx/?action=movieNavigator",return)</action>
+		</shortcut>
+	</shortcuts>

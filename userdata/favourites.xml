@@ -1,0 +1,5 @@
+<favourites>
+    <favourite name="Sun TV (1080p)" thumb="image://pvrchannel_tv@https%3a%2f%2fxstreamcp-assets-msp.streamready.in%2fassets%2fLIVETV%2fLIVECHANNEL%2fLIVETV_LIVETVCHANNEL_SUN_TV%2fimages%2fLOGO_HD%2fimage.png/">PlayMedia("pvr://channels/tv/All%20channels@-1/7@pvr.iptvsimple_1961780856.pvr")</favourite>
+    <favourite name="Sun Life (360p)" thumb="image://pvrchannel_tv@https%3a%2f%2fxstreamcp-assets-msp.streamready.in%2fassets%2fLIVETV%2fLIVECHANNEL%2fLIVETV_LIVETVCHANNEL_SUN_LIFE%2fimages%2fLOGO_HD%2fimage.png/">PlayMedia("pvr://channels/tv/All%20channels@-1/7@pvr.iptvsimple_10512179.pvr")</favourite>
+    <favourite name="KTV (360p)" thumb="image://pvrchannel_tv@https%3a%2f%2fxstreamcp-assets-msp.streamready.in%2fassets%2fLIVETV%2fLIVECHANNEL%2fLIVETV_LIVETVCHANNEL_KTV_HD%2fimages%2fLOGO_HD%2fimage.png/">PlayMedia("pvr://channels/tv/Tamil@-1/7@pvr.iptvsimple_166772727.pvr")</favourite>
+</favourites>

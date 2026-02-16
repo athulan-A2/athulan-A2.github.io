@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Search Diggz</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://special%3a%2f%2fhome%2faddons%5cplugin.program.autowidget%5cresources%5cmedia%5cicon%5cfolder-shortcut.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.program.autowidget/?mode=group&amp;group=scrubs_search-1726955277.6804514&amp;refresh=&amp;reload=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Search Gratis</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.gratis%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.gratis/?name=Search+Series&amp;url=&amp;mode=bst_search&amp;icon=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.gratis%5Cicon.png&amp;fanart=C%3A%5CUsers%5Cnrobe%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.gratis%5Cfanart.jpg&amp;description=Search+Movies+and+Shows&amp;name2=&amp;page=&amp;foldername=&amp;mediatype=video&amp;_id=&amp;season_number=&amp;episode_number=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>sEARCH Asgard</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://special%3a%2f%2fhome%2faddons%5cplugin.program.autowidget%5cresources%5cmedia%5cicon%5cfolder-shortcut.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.program.autowidget/?mode=group&amp;group=asgard_search-1726955316.4650788&amp;refresh=&amp;reload=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Search Dradis</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.dradis%5cresources%5cmedia%5cexuary%5csearch.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.dradis/?action=tools_searchNavigator",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Search Umbrella</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.umbrella%5cresources%5cartwork%5cumbrella%5csearch.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.umbrella/?action=tools_searchNavigator&amp;folderName=Search",return)</action>
+		</shortcut>
+	</shortcuts>

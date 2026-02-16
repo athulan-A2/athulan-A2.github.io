@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.magicdragon</defaultID>
+		<label>Magic Dragon</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.magicdragon",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.themoviedb.helper</defaultID>
+		<label>TheMovieDb Helper</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.themoviedb.helper",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.asgard</defaultID>
+		<label>Asgard</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.asgard",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.free</defaultID>
+		<label>Free</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.ajci</defaultID>
+		<label>Aliunde Just Click It</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ajci",return)</action>
+		</shortcut>
+	</shortcuts>

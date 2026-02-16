@@ -1,0 +1,140 @@
+[
+    [
+        "::PROFILELIST::",
+        [
+            [
+                "/Users/athu/Library/Application Support/Kodi/userdata/",
+                "String.IsEqual(System.ProfileName,A2-ZONE)",
+                "A2-ZONE"
+            ]
+        ]
+    ],
+    [
+        "::SCRIPTVER::",
+        "2.0.3"
+    ],
+    [
+        "::XBMCVER::",
+        "21"
+    ],
+    [
+        "::HIDEPVR::",
+        "false"
+    ],
+    [
+        "::SHARED::",
+        "true"
+    ],
+    [
+        "::SKINDIR::",
+        "skin.aeon.nox.silvo"
+    ],
+    [
+        "::FULLMENU::",
+        "True"
+    ],
+    [
+        "::SKINVER::",
+        "10.0.3"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/shortcuts/mainmenu.DATA.xml",
+        "70aba69da648af8eb8fc6a4a1d7ad363"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json.DATA.xml",
+        "b13fd6021d74ba30b15a857077b35bfe"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/script.skinshortcuts/resources/shortcuts/tvshows.DATA.xml",
+        "a86ff5cfeb2ecd934ccf77a45b7a0deb"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/31958.DATA.xml",
+        "acf50f800337fe9cff902ace2bc731f3"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/script.skinshortcuts/resources/shortcuts/overrides.xml",
+        "5d367b4cf434ffcb86069273d402dc28"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/tvshows.DATA.xml",
+        "61e78e1c041e58f7178b69cf1b122770"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/skin.aeon.nox.silvo.properties",
+        "945199d757b131aaa5a9683057895360"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/shortcuts/tvshows.DATA.xml",
+        "b0e62b78b92e502b23378db0e82eaa90"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/newmovies.DATA.xml",
+        "c7d7f3691ce0a1c1cd51a652b791d5da"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/script.skinshortcuts/resources/shortcuts/livetv.DATA.xml",
+        "fb7cefbdccd70e243187cce2cb0e385c"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/shortcuts/livetv.DATA.xml",
+        "a75b3ce76253bdd15eebcdd691f0f479"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/shortcuts/settings.DATA.xml",
+        "6115c8cbc133ece28074944e42078f47"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/shortcuts/overrides.xml",
+        "ba004e1e8981db8923366a97f75afb47"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/mainmenu.DATA.xml",
+        "37ac5a6b1c5ff57bd50382745eb54afc"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/settings.DATA.xml",
+        "5c4547827dd94d6b322cb4251f539d0f"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/plugin-video-einthusan.DATA.xml",
+        "f931fce6a2075441bf4b511ecf073b10"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/exitkodi.DATA.xml",
+        "1199e2ceb3918cd12b4bc50b7becd5c6"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/16x9/script-skinshortcuts-includes.xml",
+        "6197e1f3a3c9365777f4104add69f277"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/script.skinshortcuts/resources/shortcuts/settings.DATA.xml",
+        "e644f923a418932143ed842e4231cc0c"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/shortcuts/playdisc.DATA.xml",
+        "c44c3e67ba791781178206ae0d7d2d37"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/script.skinshortcuts/resources/shortcuts/mainmenu.DATA.xml",
+        "8523f5b50afc14f67af449ca99ee21f8"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/shortcuts/template.xml",
+        "b1f38cfa010da753194755343945f0f4"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/userdata/addon_data/script.skinshortcuts/livetv.DATA.xml",
+        "c766b4fea8c229547c136d34cd613ecf"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/shortcuts/buttonmenu.DATA.xml",
+        "ba1e01a0a620c3f9c2e4700685523040"
+    ],
+    [
+        "/Users/athu/Library/Application Support/Kodi/addons/skin.aeon.nox.silvo/shortcuts/power.DATA.xml",
+        "6ff3e500a0f24f05dc6aba1021965649"
+    ]
+]

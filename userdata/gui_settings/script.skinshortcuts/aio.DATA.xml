@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.free</defaultID>
+		<label>Free</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.wizz</defaultID>
+		<label>The Wizz</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.wizz",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.dynasty</defaultID>
+		<label>dYNASTY</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.dynasty",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.thechains</defaultID>
+		<label>Chain Reaction</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.thechains",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.asgard</defaultID>
+		<label>Asgard</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.asgard",return)</action>
+		</shortcut>
+	</shortcuts>

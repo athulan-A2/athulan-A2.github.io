@@ -1,0 +1,50 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Free 2025</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fcmanbuildsxyz.com%2fNEW%2520BLACK%2520LIGHTING%2fart%2ficon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.blacklightning/?mode=189&amp;iconimage=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2FMOVIES%2Ffree2025.xml&amp;name=Free+2025&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Free+2025&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2FMOVIES%2Ffree2025.xml&amp;name=Free+2025&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Free+2025&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22Free+2025%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Free+2025%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D&amp;video_data=%7B%22title%22%3A+%22Free+2025%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Free+2025%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Kids Movies</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fcmanbuildsxyz.com%2fNEW%2520BLACK%2520LIGHTING%2fart%2ficon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.blacklightning/?mode=189&amp;iconimage=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fthechains24.com%2FGREENHAT%2FKidsNewFree.xml&amp;name=Kids+Movies&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Kids+Movies&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fthechains24.com%2FGREENHAT%2FKidsNewFree.xml&amp;name=Kids+Movies&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Kids+Movies&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22Kids+Movies%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Kids+Movies%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D&amp;video_data=%7B%22title%22%3A+%22Kids+Movies%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Kids+Movies%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.tvfree</defaultID>
+		<label>TV Free</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.tvfree",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.halcyon/get_list/https://bitbucket.org/halcyonhal/halcyon2/raw/main/fc.json</defaultID>
+		<label>Halcyon</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cjxrjx%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.halcyon%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.halcyon/get_list/https://bitbucket.org/halcyonhal/halcyon2/raw/main/fc.json",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.scrubsv2</defaultID>
+		<label>Scrubs v2</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.scrubsv2",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Black Lightning</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fcmanbuilds.com%2fNEW%2520BLACK%2520LIGHTING%2fart%2ficon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.blacklightning/?mode=189&amp;iconimage=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2FMOVIES%2FFree-Main.xml&amp;name=Free+Section&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Free+Section&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;isr=0&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;iconimage=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ficon.png&amp;fanart=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2Fart%2Ffanart.jpg&amp;description=+&amp;url=https%3A%2F%2Fcmanbuildsxyz.com%2FNEW%2520BLACK%2520LIGHTING%2FMOVIES%2FFree-Main.xml&amp;name=Free+Section&amp;image_master=&amp;heb_name=+&amp;last_id=&amp;dates=+&amp;data=&amp;original_title=Free+Section&amp;id=&amp;season=+&amp;episode=+&amp;tmdbid=+&amp;eng_name=+&amp;show_original_year=+&amp;fav_status=false&amp;all_w=%7B%7D&amp;search_db=&amp;mypass=&amp;video_data=%7B%22title%22%3A+%22Free+Section%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Free+Section%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D&amp;video_data=%7B%22title%22%3A+%22Free+Section%22%2C+%22mediatype%22%3A+%22movie%22%2C+%22TVshowtitle%22%3A+%22%22%2C+%22season%22%3A+0%2C+%22episode%22%3A+0%2C+%22OriginalTitle%22%3A+%22Free+Section%22%2C+%22year%22%3A+%22%22%2C+%22rating%22%3A+%220%22%2C+%22plot%22%3A+%22+%22%2C+%22Tag%22%3A+%22189%22%2C+%22trailer%22%3A+%22%22%2C+%22id%22%3A+%22%22%7D",return)</action>
+		</shortcut>
+	</shortcuts>

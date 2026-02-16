@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>DaddyLive</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.daddylive/?mode=menu&amp;serv_type=live_tv",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.fetch</defaultID>
+		<label>Fetch!</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.fetch",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.samm_tv/samsung_tv/region/gb</defaultID>
+		<label>[COLORwhite]UK Channels[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fLWBGiPh.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.samm_tv/samsung_tv/region/gb",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.samm_tv/samsung_tv/region/us</defaultID>
+		<label>[COLORwhite]US Channels[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fi.imgur.com%2fLWBGiPh.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.samm_tv/samsung_tv/region/us",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.forkq</defaultID>
+		<label>[COLORwhite]Fork-Q[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.forkq",return)</action>
+		</shortcut>
+	</shortcuts>

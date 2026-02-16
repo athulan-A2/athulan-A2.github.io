@@ -1,0 +1,8 @@
+<settings version="2">
+    <setting id="login_enabled" default="true">false</setting>
+    <setting id="login_username" default="true" />
+    <setting id="login_password" default="true" />
+    <setting id="base_url" default="true">https://einthusan.tv</setting>
+    <setting id="log_level_debug" default="true">false</setting>
+    <setting id="retry_key">WyJodHRwczJuvL2NkbjEuZWludGh1c2FuLmlvL3BpbmcubTR2IiwiaHR0cHM6Ly9jZG4yLmVpbnRodXNhbi5pby9waW5nLm00diIsImh0dHBzOi8vY2RuMy5laW50aHVzYW4uaW8vcGluZy5tNHYiXQ==o</setting>
+</settings>

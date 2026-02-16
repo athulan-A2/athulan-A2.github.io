@@ -1,0 +1,19 @@
+<settings version="2">
+    <setting id="hi">false</setting>
+    <setting id="en">false</setting>
+    <setting id="mr">false</setting>
+    <setting id="te">false</setting>
+    <setting id="kn">false</setting>
+    <setting id="ta">true</setting>
+    <setting id="ml">false</setting>
+    <setting id="bn">false</setting>
+    <setting id="gu">true</setting>
+    <setting id="pa">true</setting>
+    <setting id="hr">true</setting>
+    <setting id="or">true</setting>
+    <setting id="as">true</setting>
+    <setting id="email" default="true" />
+    <setting id="play_select" default="true">Default</setting>
+    <setting id="DeviceID">a8a39VCqwLrY3qhNDU6e000000000000</setting>
+    <setting id="debug" default="true">false</setting>
+</settings>

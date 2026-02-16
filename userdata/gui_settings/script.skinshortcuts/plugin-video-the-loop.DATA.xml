@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.purelywrestling</defaultID>
+		<label>[COLOR green]Purely Wrestling[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.purelywrestling",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.the-loop</defaultID>
+		<label>[COLOR blue]The Loop[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.the-loop",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.torquelite</defaultID>
+		<label>[COLOR green]Torque Lite[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.torquelite",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.replayme</defaultID>
+		<label>[COLOR blue]SportHD[/COLOR]</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.sporthdme",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.Rising.Tides</defaultID>
+		<label>[COLOR green]Rising Tides[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.Rising.Tides",return)</action>
+		</shortcut>
+	</shortcuts>

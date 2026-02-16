@@ -1,0 +1,50 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.fenlight</defaultID>
+		<label>FenLightAM</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.fenlight",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.absolution</defaultID>
+		<label>Absolution</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.absolution",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.blacklightning</defaultID>
+		<label>Black Lightning</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.blacklightning",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.umbrella</defaultID>
+		<label>Umbrella</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.umbrella",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.thechains</defaultID>
+		<label>Chains Reaction</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.thechains",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.z3r0cinema</defaultID>
+		<label>Z3RO Cinema</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.z3r0cinema",return)</action>
+		</shortcut>
+	</shortcuts>

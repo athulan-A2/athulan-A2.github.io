@@ -1,0 +1,67 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.einthusan</defaultID>
+		<label>Movies</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>New Movies</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Live TV</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>noop</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Tv Shows</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>noop</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Live Sports</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/sports.json",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>playdisc</defaultID>
+		<label>$SKIN[31958|skin.aeon.nox.silvo|None]</label>
+		<label2 />
+		<icon>special://skin/extras/icons/Disc.png</icon>
+		<thumb />
+		<action>PlayDisc</action>
+		<visible>System.HasMediaDVD</visible>
+		</shortcut>
+	<shortcut>
+		<defaultID>settings</defaultID>
+		<label>Settings</label>
+		<label2>Custom item</label2>
+		<icon>special://skin/extras/icons/DefaultAddonService.png</icon>
+		<thumb />
+		<action>ActivateWindow(Settings)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>power</defaultID>
+		<label>Exit Kodi</label>
+		<label2>Custom item</label2>
+		<icon>special://skin/extras/icons/power.png</icon>
+		<thumb />
+		<action>ShutDown</action>
+		</shortcut>
+	</shortcuts>

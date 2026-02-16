@@ -1,0 +1,50 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.pov</defaultID>
+		<label>POV</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.pov",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.absolution</defaultID>
+		<label>Absolution</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.absolution",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.dynasty</defaultID>
+		<label>Dynasty</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.dynasty",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.fenlight</defaultID>
+		<label>Fen Light</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.fenlight",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.coalition</defaultID>
+		<label>Umbrella</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.umbrella",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.thechains</defaultID>
+		<label>Chain rEACTION</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.thechains",return)</action>
+		</shortcut>
+	</shortcuts>

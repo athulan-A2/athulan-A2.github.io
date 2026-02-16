@@ -1,0 +1,26 @@
+<shortcuts>
+	<shortcut>
+		<defaultID />
+		<label>Soccer</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.the-loop/get_list/HkYBGxACVkIYBA0HF1YRBA0WDAZbDQsbE0FaAFIBVhUZBxFYJVEaGQZiFgMRRBEYFVEQGRdXHQwNX0wdBV0b",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Cricket</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_cricket.json",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>UFC</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_ufc.json",return)</action>
+		</shortcut>
+	</shortcuts>

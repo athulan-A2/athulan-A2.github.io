@@ -1,0 +1,44 @@
+<settings version="2">
+    <setting id="realdebrid.token" default="true" />
+    <setting id="realdebrid.username" default="true" />
+    <setting id="realdebrid.expiry.notice" default="true">false</setting>
+    <setting id="realdebrid.client_id" default="true" />
+    <setting id="realdebrid.refresh" default="true" />
+    <setting id="realdebrid.secret" default="true" />
+    <setting id="premiumize.token" default="true" />
+    <setting id="premiumize.username" default="true" />
+    <setting id="premiumize.expiry.notice" default="true">false</setting>
+    <setting id="alldebrid.token" default="true" />
+    <setting id="alldebrid.username" default="true" />
+    <setting id="alldebrid.expiry.notice" default="true">false</setting>
+    <setting id="torbox.enabled" default="true">false</setting>
+    <setting id="torbox.token" default="true" />
+    <setting id="easydebrid.enabled" default="true">false</setting>
+    <setting id="easydebrid.token" default="true" />
+    <setting id="offcloud.enabled" default="true">false</setting>
+    <setting id="offcloud.userid" default="true" />
+    <setting id="offcloud.user" default="true" />
+    <setting id="offcloud.pass" default="true" />
+    <setting id="debridall.enabled" default="true">false</setting>
+    <setting id="offcloud.token" default="true" />
+    <setting id="rd_backup_date" default="true">Date: 0000-00-00   Time: 00:00</setting>
+    <setting id="pm_backup_date" default="true">Date: 0000-00-00   Time: 00:00</setting>
+    <setting id="ad_backup_date" default="true">Date: 0000-00-00   Time: 00:00</setting>
+    <setting id="tb_backup_date" default="true">Date: 0000-00-00   Time: 00:00</setting>
+    <setting id="ed_backup_date" default="true">Date: 0000-00-00   Time: 00:00</setting>
+    <setting id="oc_backup_date" default="true">Date: 0000-00-00   Time: 00:00</setting>
+    <setting id="ext.providers.enabled">true</setting>
+    <setting id="ext.provider" default="true" />
+    <setting id="ext_backup_date" default="true">Date: 0000-00-00   Time: 00:00</setting>
+    <setting id="backupenable" default="true">false</setting>
+    <setting id="backupfolder" default="true">special://profile/addon_data/script.module.debridmgr/</setting>
+    <setting id="checkAddonUpdates">true</setting>
+    <setting id="api.service" default="true">false</setting>
+    <setting id="sync.rd.service">true</setting>
+    <setting id="sync.pm.service" default="true">false</setting>
+    <setting id="sync.ad.service" default="true">false</setting>
+    <setting id="sync.torbox.service" default="true">false</setting>
+    <setting id="sync.easyd.service" default="true">false</setting>
+    <setting id="sync.offc.service" default="true">false</setting>
+    <setting id="sync.ext.service" default="true">false</setting>
+</settings>

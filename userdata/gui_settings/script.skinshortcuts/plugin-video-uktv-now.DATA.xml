@@ -1,0 +1,50 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.uktv_now</defaultID>
+		<label>UKTV Now</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.uktv_now",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.twentyfour</defaultID>
+		<label>TV 24</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.twentyfour",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.dreammachine</defaultID>
+		<label>DreamMachine</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.dreammachine",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.dlv2/get_list/ddlv/channels</defaultID>
+		<label>Daddylive v2</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.dlv2%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.dlv2/get_list/ddlv/channels",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.unimatrix</defaultID>
+		<label>uNIMATRIX</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.unimatrix",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.forkq</defaultID>
+		<label>Fork-q</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.forkq",return)</action>
+		</shortcut>
+	</shortcuts>

@@ -1,0 +1,10 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.watchnixtoons2.kodi19</defaultID>
+		<label>WatchNixtoons2</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.watchnixtoons2.kodi19",return)</action>
+		</shortcut>
+	</shortcuts>

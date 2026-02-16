@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.asgard</defaultID>
+		<label>Asgard</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.asgard",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.ghost</defaultID>
+		<label>Ghost</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ghost",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.free</defaultID>
+		<label>Free</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.free",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.gratis</defaultID>
+		<label>Gratis</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.gratis",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.ajci</defaultID>
+		<label>Aliunde</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.ajci",return)</action>
+		</shortcut>
+	</shortcuts>

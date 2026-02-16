@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.audio.mp3streams</defaultID>
+		<label>MP3 Streams</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.mp3streams",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.essential</defaultID>
+		<label>Essential</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.essential",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.audio.tuneinradio</defaultID>
+		<label>TuneIn Radio</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.tuneinradio",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.audio.bbcpodcasts</defaultID>
+		<label>BBC Podcasts</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.bbcpodcasts",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.audio.kxmxpxtx.bandcamp</defaultID>
+		<label>Bandcamp</label>
+		<label2>Music Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.kxmxpxtx.bandcamp",return)</action>
+		</shortcut>
+	</shortcuts>

@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/LIVETV/livetv.json</defaultID>
+		<label>Mad Titan</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fmagnetic.website%2fmenu%2520icons%2fwolfgirl%2520mad%2520titan%2520sports%2520icons%2fLIVE%2520TV.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/LIVETV/livetv.json",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>19019</defaultID>
+		<label>TV Guide</label>
+		<label2>Live TV</label2>
+		<icon>DefaultTVShows.png</icon>
+		<thumb />
+		<action>ActivateWindow(TVChannels)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.forkq/get_list/https://cmanbuildsxyz.com/forkq/ent.json</defaultID>
+		<label>Fork-q</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.forkq%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.forkq/get_list/https://cmanbuildsxyz.com/forkq/ent.json",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.dlv2/get_list/ddlv/channels</defaultID>
+		<label>Daddylive v2</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cnrobe%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.dlv2%5cicon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.dlv2/get_list/ddlv/channels",return)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.iplayerwww</defaultID>
+		<label>iPlayer WWW</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>thumb</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.iplayerwww",return)</action>
+		</shortcut>
+	</shortcuts>

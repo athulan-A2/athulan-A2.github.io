@@ -1,0 +1,42 @@
+<shortcuts>
+	<shortcut>
+		<defaultID>130</defaultID>
+		<label>130</label>
+		<label2>System</label2>
+		<icon>DefaultAddonService.png</icon>
+		<thumb />
+		<action>ActivateWindow(SystemInfo)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>1036</defaultID>
+		<label>1036</label>
+		<label2>Favourites</label2>
+		<icon>DefaultAddonsInstalled.png</icon>
+		<thumb />
+		<action>ActivateWindow(favouritesbrowser)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>20183</defaultID>
+		<label>20183</label>
+		<label2>Kodi Command</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ReloadSkin()</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>14036</defaultID>
+		<label>14036</label>
+		<label2>Settings</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>ActivateWindow(ServiceSettings)</action>
+		</shortcut>
+	<shortcut>
+		<defaultID>20077</defaultID>
+		<label>Skin settings</label>
+		<label2>Settings</label2>
+		<icon>special://skin/extras/icons/year.png</icon>
+		<thumb>special://skin/extras/icons/configure.png</thumb>
+		<action>ActivateWindow(SkinSettings)</action>
+		</shortcut>
+	</shortcuts>

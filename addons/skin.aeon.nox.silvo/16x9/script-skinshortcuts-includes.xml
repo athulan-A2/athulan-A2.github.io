@@ -1,0 +1,2054 @@
+<includes>
+	<include name="skinshortcuts-mainmenu">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<label>Movies</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>thumb</thumb>
+			<property name="translatedPath">ActivateWindow(Videos,"plugin://plugin.video.einthusan",return)</property>
+			<property name="background">special://home/userdata/backrokgrounds/Tamil Backgrounds/</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Tamil Backgrounds/</property>
+			<onclick condition="String.IsEqual(ListItem.Property(path),ActivateWindow(1129))">SetProperty(CustomSelect,search,Home)</onclick>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="submenuVisibility">plugin-video-einthusan</property>
+			<property name="hasSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<label>New Movies</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Tamil Backgrounds/</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Tamil Backgrounds/</property>
+			<onclick condition="String.IsEqual(ListItem.Property(path),ActivateWindow(1129))">SetProperty(CustomSelect,search,Home)</onclick>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="submenuVisibility">newmovies</property>
+			<property name="hasSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<label>Live TV</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Tamil Backgrounds/</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Tamil Backgrounds/</property>
+			<onclick condition="String.IsEqual(ListItem.Property(path),ActivateWindow(1129))">SetProperty(CustomSelect,search,Home)</onclick>
+			<onclick>noop</onclick>
+			<property name="path">noop</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="submenuVisibility">livetv</property>
+			<property name="hasSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<label>Tv Shows</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Tamil Backgrounds/</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Tamil Backgrounds/</property>
+			<onclick condition="String.IsEqual(ListItem.Property(path),ActivateWindow(1129))">SetProperty(CustomSelect,search,Home)</onclick>
+			<onclick>noop</onclick>
+			<property name="path">noop</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="submenuVisibility">tvshows</property>
+			<property name="hasSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<label>Live Sports</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/</property>
+			<onclick condition="String.IsEqual(ListItem.Property(path),ActivateWindow(1129))">SetProperty(CustomSelect,search,Home)</onclick>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/sports.json",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/sports.json",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="submenuVisibility">plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json</property>
+			<property name="hasSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<label>$LOCALIZE[31958]</label>
+			<label2 />
+			<icon>special://skin/extras/icons/Disc.png</icon>
+			<thumb />
+			<visible>System.HasMediaDVD</visible>
+			<onclick condition="String.IsEqual(ListItem.Property(path),ActivateWindow(1129))">SetProperty(CustomSelect,search,Home)</onclick>
+			<onclick>PlayDisc</onclick>
+			<property name="path">PlayDisc</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="submenuVisibility">num-31958</property>
+			<property name="hasSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<label>Settings</label>
+			<label2>Custom item</label2>
+			<icon>special://skin/extras/icons/DefaultAddonService.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/System/settings_a2-2.png</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/System/settings_a2-2.png</property>
+			<onclick condition="String.IsEqual(ListItem.Property(path),ActivateWindow(1129))">SetProperty(CustomSelect,search,Home)</onclick>
+			<onclick>ActivateWindow(Settings)</onclick>
+			<property name="path">ActivateWindow(Settings)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="submenuVisibility">settings</property>
+			<property name="hasSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<label>Exit Kodi</label>
+			<label2>Custom item</label2>
+			<icon>special://skin/extras/icons/power.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Exit/vecteezy_ai-generated-red-exit-sign-hanging-from-a-metal-rod_36730455-2.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Exit/vecteezy_ai-generated-red-exit-sign-hanging-from-a-metal-rod_36730455-2.jpg</property>
+			<onclick condition="String.IsEqual(ListItem.Property(path),ActivateWindow(1129))">SetProperty(CustomSelect,search,Home)</onclick>
+			<onclick>ShutDown</onclick>
+			<property name="path">ShutDown</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="submenuVisibility">exitkodi</property>
+			<property name="hasSubmenu">True</property>
+			</item>
+		</include>
+	<include />
+	<include name="skinshortcuts-submenu">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">1</property>
+			<label>Hindi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Hindi&amp;lang=hindi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Hindi&amp;lang=hindi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">1</property>
+			<label>Telugu</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Telugu&amp;lang=telugu&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Telugu&amp;lang=telugu&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">1</property>
+			<label>Tamil</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://https%3a%2f%2f%2f%2fimg.einthusan.io%2fetv%2fs3%2fetc%2fimg%2ftamil.jpg/</thumb>
+			<property name="translatedPath">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">1</property>
+			<label>Malayalam</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Malayalam&amp;lang=malayalam&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Malayalam&amp;lang=malayalam&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">1</property>
+			<label>Kannada</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Kannada&amp;lang=kannada&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Kannada&amp;lang=kannada&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">1</property>
+			<label>Punjabi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Punjabi&amp;lang=punjabi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Punjabi&amp;lang=punjabi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">1</property>
+			<label>Bengali</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Bengali&amp;lang=bengali&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Bengali&amp;lang=bengali&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<property name="mainmenuid">1</property>
+			<label>Marathi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Marathi&amp;lang=marathi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Marathi&amp;lang=marathi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">2</property>
+			<label>Hindi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dhindi&amp;mode=11&amp;name=Recently+Added&amp;lang=hindi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dhindi&amp;mode=11&amp;name=Recently+Added&amp;lang=hindi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">2</property>
+			<label>Telugu</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtelugu&amp;mode=11&amp;name=Recently+Added&amp;lang=telugu&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtelugu&amp;mode=11&amp;name=Recently+Added&amp;lang=telugu&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">2</property>
+			<label>Tamil</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">2</property>
+			<label>Malayalam</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmalayalam&amp;mode=11&amp;name=Recently+Added&amp;lang=malayalam&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmalayalam&amp;mode=11&amp;name=Recently+Added&amp;lang=malayalam&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">2</property>
+			<label>Kannada</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dkannada&amp;mode=11&amp;name=Recently+Added&amp;lang=kannada&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dkannada&amp;mode=11&amp;name=Recently+Added&amp;lang=kannada&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">2</property>
+			<label>Punjabi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dpunjabi&amp;mode=11&amp;name=Recently+Added&amp;lang=punjabi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dpunjabi&amp;mode=11&amp;name=Recently+Added&amp;lang=punjabi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">2</property>
+			<label>Bengali</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dbengali&amp;mode=11&amp;name=Recently+Added&amp;lang=bengali&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dbengali&amp;mode=11&amp;name=Recently+Added&amp;lang=bengali&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<property name="mainmenuid">2</property>
+			<label>Marathi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmarathi&amp;mode=11&amp;name=Recently+Added&amp;lang=marathi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmarathi&amp;mode=11&amp;name=Recently+Added&amp;lang=marathi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">3</property>
+			<label>Tamil</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick condition="System.HasPVRAddon">ActivateWindow(TVChannels)</onclick>
+			<property name="path">ActivateWindow(TVChannels)</property>
+			<onclick condition="![System.HasPVRAddon]">ActivateWindow(addonbrowser,addons://repository.xbmc.org/xbmc.pvrclient,return)</onclick>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),livetv)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">4</property>
+			<label>Nrk Tv</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.nrk",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.nrk",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),tvshows)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">4</property>
+			<label>Zee Tamil</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.zee5/?action=list_shows&amp;showid=0-8-6819&amp;page=1",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.zee5/?action=list_shows&amp;showid=0-8-6819&amp;page=1",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),tvshows)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">4</property>
+			<label>Indian Streams</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://sddev.serial.stream",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://sddev.serial.stream",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),tvshows)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">5</property>
+			<label>Soccer</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/wp5192195-bigil-hd-wallpapers-2.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/wp5192195-bigil-hd-wallpapers-2.jpg</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.the-loop/get_list/HkYBGxACVkIYBA0HF1YRBA0WDAZbDQsbE0FaAFIBVhUZBxFYJVEaGQZiFgMRRBEYFVEQGRdXHQwNX0wdBV0b",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.the-loop/get_list/HkYBGxACVkIYBA0HF1YRBA0WDAZbDQsbE0FaAFIBVhUZBxFYJVEaGQZiFgMRRBEYFVEQGRdXHQwNX0wdBV0b",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">5</property>
+			<label>Cricket</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/206606-jfuttdqdpz-1743705974-3.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/206606-jfuttdqdpz-1743705974-3.jpg</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_cricket.json",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_cricket.json",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">5</property>
+			<label>UFC</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/SK-2.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/SK-2.jpg</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_ufc.json",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_ufc.json",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">6</property>
+			<label>$LOCALIZE[31485]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>EjectTray()</onclick>
+			<property name="path">EjectTray()</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-31958)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">6</property>
+			<label>$LOCALIZE[600]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasMediaAudioCD] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),num-31958)</visible>
+			<onclick>RipCD</onclick>
+			<property name="path">RipCD</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">7</property>
+			<label>$LOCALIZE[7]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(FileManager)</onclick>
+			<property name="path">ActivateWindow(FileManager)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),settings)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">7</property>
+			<label>Addons</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(AddonBrowser)</onclick>
+			<property name="path">ActivateWindow(AddonBrowser)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),settings)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">7</property>
+			<label>$LOCALIZE[31159]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[system.getbool(eventlog.enabled)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),settings)</visible>
+			<onclick>ActivateWindow(Eventlog)</onclick>
+			<property name="path">ActivateWindow(Eventlog)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">8</property>
+			<label>$LOCALIZE[13016]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanPowerDown] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),exitkodi)</visible>
+			<onclick>Powerdown()</onclick>
+			<property name="path">Powerdown()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">8</property>
+			<label>$LOCALIZE[13013]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanReboot] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),exitkodi)</visible>
+			<onclick>Reset()</onclick>
+			<property name="path">Reset()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">8</property>
+			<label>$LOCALIZE[13009]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.ShowExitButton] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),exitkodi)</visible>
+			<onclick>Quit()</onclick>
+			<property name="path">Quit()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13012]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.ShowExitButton] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Quit()</onclick>
+			<property name="path">Quit()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13016]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanPowerDown] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Powerdown()</onclick>
+			<property name="path">Powerdown()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20150]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[!System.HasAlarm(shutdowntimer) + [System.CanPowerDown | System.CanSuspend | System.CanHibernate]] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>AlarmClock(shutdowntimer,Shutdown())</onclick>
+			<property name="path">AlarmClock(shutdowntimer,Shutdown())</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20151]</label>
+			<label2>$INFO[System.Alarmpos, (,)]</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasAlarm(shutdowntimer)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>CancelAlarm(shutdowntimer)</onclick>
+			<property name="path">CancelAlarm(shutdowntimer)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13011]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanSuspend] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Suspend()</onclick>
+			<property name="path">Suspend()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13010]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanHibernate] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Hibernate()</onclick>
+			<property name="path">Hibernate()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[31576]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.Platform.Linux] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>System.ExecWait("/usr/sbin/rebootfromnand")</onclick>
+			<property name="path">System.ExecWait("/usr/sbin/rebootfromnand")</property>
+			<onclick>Reboot()</onclick>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13013]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanReboot] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Reset()</onclick>
+			<property name="path">Reset()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="9">
+			<property name="id">$NUMBER[9]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20126]</label>
+			<label2>$INFO[system.profilename]</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[[System.HasLoginScreen | Integer.IsGreater(System.ProfileCount,1)] + System.Loggedon] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>System.LogOff</onclick>
+			<property name="path">System.LogOff</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="10">
+			<property name="id">$NUMBER[10]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20046]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[[System.HasLocks] + [System.IsMaster]] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Mastermode</onclick>
+			<property name="path">Mastermode</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="11">
+			<property name="id">$NUMBER[11]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20045]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[[System.HasLocks] + [!System.IsMaster]] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Mastermode</onclick>
+			<property name="path">Mastermode</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="12">
+			<property name="id">$NUMBER[12]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13017]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasShutdown +!System.IsInhibit] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>InhibitIdleShutdown(true)</onclick>
+			<property name="path">InhibitIdleShutdown(true)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="13">
+			<property name="id">$NUMBER[13]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13018]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasShutdown + System.IsInhibit] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>InhibitIdleShutdown(false)</onclick>
+			<property name="path">InhibitIdleShutdown(false)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="14">
+			<property name="id">$NUMBER[14]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[1036]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>Dialog.Close(all,true)</onclick>
+			<property name="path">Dialog.Close(all,true)</property>
+			<onclick>ActivateWindow(favouritesbrowser)</onclick>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="15">
+			<property name="id">$NUMBER[15]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20183]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ReloadSkin()</onclick>
+			<property name="path">ReloadSkin()</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="16">
+			<property name="id">$NUMBER[16]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20077]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>Dialog.Close(all,true)</onclick>
+			<property name="path">Dialog.Close(all,true)</property>
+			<onclick>ActivateWindow(skinsettings)</onclick>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Container(9000).ListItem.Property(submenuVisibility),buttonmenu)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include />
+	<include name="skinshortcuts-submenu-1" />
+	<include />
+	<include name="skinshortcuts-submenu-2" />
+	<include name="skinshortcuts-group-plugin-video-einthusan">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">1</property>
+			<label>Hindi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Hindi&amp;lang=hindi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Hindi&amp;lang=hindi&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">1</property>
+			<label>Telugu</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Telugu&amp;lang=telugu&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Telugu&amp;lang=telugu&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">1</property>
+			<label>Tamil</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://https%3a%2f%2f%2f%2fimg.einthusan.io%2fetv%2fs3%2fetc%2fimg%2ftamil.jpg/</thumb>
+			<property name="translatedPath">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">1</property>
+			<label>Malayalam</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Malayalam&amp;lang=malayalam&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Malayalam&amp;lang=malayalam&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">1</property>
+			<label>Kannada</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Kannada&amp;lang=kannada&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Kannada&amp;lang=kannada&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">1</property>
+			<label>Punjabi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Punjabi&amp;lang=punjabi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Punjabi&amp;lang=punjabi&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">1</property>
+			<label>Bengali</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Bengali&amp;lang=bengali&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Bengali&amp;lang=bengali&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<property name="mainmenuid">1</property>
+			<label>Marathi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Marathi&amp;lang=marathi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Marathi&amp;lang=marathi&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-alt-plugin-video-einthusan">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">1</property>
+			<label>Hindi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Hindi&amp;lang=hindi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Hindi&amp;lang=hindi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">1</property>
+			<label>Telugu</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Telugu&amp;lang=telugu&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Telugu&amp;lang=telugu&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">1</property>
+			<label>Tamil</label>
+			<label2>Video Add-On</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb>image://https%3a%2f%2f%2f%2fimg.einthusan.io%2fetv%2fs3%2fetc%2fimg%2ftamil.jpg/</thumb>
+			<property name="translatedPath">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Tamil&amp;lang=tamil&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">1</property>
+			<label>Malayalam</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Malayalam&amp;lang=malayalam&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Malayalam&amp;lang=malayalam&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">1</property>
+			<label>Kannada</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Kannada&amp;lang=kannada&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Kannada&amp;lang=kannada&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">1</property>
+			<label>Punjabi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Punjabi&amp;lang=punjabi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Punjabi&amp;lang=punjabi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">1</property>
+			<label>Bengali</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Bengali&amp;lang=bengali&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Bengali&amp;lang=bengali&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<property name="mainmenuid">1</property>
+			<label>Marathi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Marathi&amp;lang=marathi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=&amp;mode=1&amp;name=Marathi&amp;lang=marathi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-einthusan)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-plugin-video-einthusan-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-plugin-video-einthusan-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-plugin-video-einthusan-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-plugin-video-einthusan-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-newmovies">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">2</property>
+			<label>Hindi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dhindi&amp;mode=11&amp;name=Recently+Added&amp;lang=hindi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dhindi&amp;mode=11&amp;name=Recently+Added&amp;lang=hindi&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">2</property>
+			<label>Telugu</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtelugu&amp;mode=11&amp;name=Recently+Added&amp;lang=telugu&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtelugu&amp;mode=11&amp;name=Recently+Added&amp;lang=telugu&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">2</property>
+			<label>Tamil</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">2</property>
+			<label>Malayalam</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmalayalam&amp;mode=11&amp;name=Recently+Added&amp;lang=malayalam&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmalayalam&amp;mode=11&amp;name=Recently+Added&amp;lang=malayalam&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">2</property>
+			<label>Kannada</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dkannada&amp;mode=11&amp;name=Recently+Added&amp;lang=kannada&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dkannada&amp;mode=11&amp;name=Recently+Added&amp;lang=kannada&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">2</property>
+			<label>Punjabi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dpunjabi&amp;mode=11&amp;name=Recently+Added&amp;lang=punjabi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dpunjabi&amp;mode=11&amp;name=Recently+Added&amp;lang=punjabi&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">2</property>
+			<label>Bengali</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dbengali&amp;mode=11&amp;name=Recently+Added&amp;lang=bengali&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dbengali&amp;mode=11&amp;name=Recently+Added&amp;lang=bengali&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<property name="mainmenuid">2</property>
+			<label>Marathi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmarathi&amp;mode=11&amp;name=Recently+Added&amp;lang=marathi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmarathi&amp;mode=11&amp;name=Recently+Added&amp;lang=marathi&amp;description=",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-alt-newmovies">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">2</property>
+			<label>Hindi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dhindi&amp;mode=11&amp;name=Recently+Added&amp;lang=hindi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dhindi&amp;mode=11&amp;name=Recently+Added&amp;lang=hindi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">2</property>
+			<label>Telugu</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtelugu&amp;mode=11&amp;name=Recently+Added&amp;lang=telugu&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtelugu&amp;mode=11&amp;name=Recently+Added&amp;lang=telugu&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">2</property>
+			<label>Tamil</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dtamil&amp;mode=11&amp;name=Recently+Added&amp;lang=tamil&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">2</property>
+			<label>Malayalam</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmalayalam&amp;mode=11&amp;name=Recently+Added&amp;lang=malayalam&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmalayalam&amp;mode=11&amp;name=Recently+Added&amp;lang=malayalam&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">2</property>
+			<label>Kannada</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dkannada&amp;mode=11&amp;name=Recently+Added&amp;lang=kannada&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dkannada&amp;mode=11&amp;name=Recently+Added&amp;lang=kannada&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">2</property>
+			<label>Punjabi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dpunjabi&amp;mode=11&amp;name=Recently+Added&amp;lang=punjabi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dpunjabi&amp;mode=11&amp;name=Recently+Added&amp;lang=punjabi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">2</property>
+			<label>Bengali</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dbengali&amp;mode=11&amp;name=Recently+Added&amp;lang=bengali&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dbengali&amp;mode=11&amp;name=Recently+Added&amp;lang=bengali&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<property name="mainmenuid">2</property>
+			<label>Marathi</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmarathi&amp;mode=11&amp;name=Recently+Added&amp;lang=marathi&amp;description=",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.einthusan/?url=https%3A%2F%2Feinthusan.tv%2Fmovie%2Fresults%2F%3Ffind%3DRecent%26lang%3Dmarathi&amp;mode=11&amp;name=Recently+Added&amp;lang=marathi&amp;description=",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),newmovies)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-newmovies-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-newmovies-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-newmovies-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-newmovies-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-livetv">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">3</property>
+			<label>Tamil</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick condition="System.HasPVRAddon">ActivateWindow(TVChannels)</onclick>
+			<property name="path">ActivateWindow(TVChannels)</property>
+			<onclick condition="![System.HasPVRAddon]">ActivateWindow(addonbrowser,addons://repository.xbmc.org/xbmc.pvrclient,return)</onclick>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-alt-livetv">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">3</property>
+			<label>Tamil</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick condition="System.HasPVRAddon">ActivateWindow(TVChannels)</onclick>
+			<property name="path">ActivateWindow(TVChannels)</property>
+			<onclick condition="![System.HasPVRAddon]">ActivateWindow(addonbrowser,addons://repository.xbmc.org/xbmc.pvrclient,return)</onclick>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),livetv)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-livetv-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-livetv-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-livetv-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-livetv-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-tvshows">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">4</property>
+			<label>Nrk Tv</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.nrk",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.nrk",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">4</property>
+			<label>Zee Tamil</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.zee5/?action=list_shows&amp;showid=0-8-6819&amp;page=1",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.zee5/?action=list_shows&amp;showid=0-8-6819&amp;page=1",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">4</property>
+			<label>Indian Streams</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://sddev.serial.stream",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://sddev.serial.stream",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-alt-tvshows">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">4</property>
+			<label>Nrk Tv</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.nrk",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.nrk",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),tvshows)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">4</property>
+			<label>Zee Tamil</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.zee5/?action=list_shows&amp;showid=0-8-6819&amp;page=1",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.zee5/?action=list_shows&amp;showid=0-8-6819&amp;page=1",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),tvshows)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">4</property>
+			<label>Indian Streams</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(Videos,"plugin://sddev.serial.stream",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://sddev.serial.stream",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),tvshows)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-tvshows-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-tvshows-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-tvshows-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-tvshows-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">5</property>
+			<label>Soccer</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/wp5192195-bigil-hd-wallpapers-2.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/wp5192195-bigil-hd-wallpapers-2.jpg</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.the-loop/get_list/HkYBGxACVkIYBA0HF1YRBA0WDAZbDQsbE0FaAFIBVhUZBxFYJVEaGQZiFgMRRBEYFVEQGRdXHQwNX0wdBV0b",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.the-loop/get_list/HkYBGxACVkIYBA0HF1YRBA0WDAZbDQsbE0FaAFIBVhUZBxFYJVEaGQZiFgMRRBEYFVEQGRdXHQwNX0wdBV0b",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">5</property>
+			<label>Cricket</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/206606-jfuttdqdpz-1743705974-3.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/206606-jfuttdqdpz-1743705974-3.jpg</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_cricket.json",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_cricket.json",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">5</property>
+			<label>UFC</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/SK-2.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/SK-2.jpg</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_ufc.json",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_ufc.json",return)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-alt-plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">5</property>
+			<label>Soccer</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/wp5192195-bigil-hd-wallpapers-2.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/wp5192195-bigil-hd-wallpapers-2.jpg</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.the-loop/get_list/HkYBGxACVkIYBA0HF1YRBA0WDAZbDQsbE0FaAFIBVhUZBxFYJVEaGQZiFgMRRBEYFVEQGRdXHQwNX0wdBV0b",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.the-loop/get_list/HkYBGxACVkIYBA0HF1YRBA0WDAZbDQsbE0FaAFIBVhUZBxFYJVEaGQZiFgMRRBEYFVEQGRdXHQwNX0wdBV0b",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">5</property>
+			<label>Cricket</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/206606-jfuttdqdpz-1743705974-3.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/206606-jfuttdqdpz-1743705974-3.jpg</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_cricket.json",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_cricket.json",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">5</property>
+			<label>UFC</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<property name="background">special://home/userdata/backrokgrounds/Kodi Sport/SK-2.jpg</property>
+			<property name="backgroundName">special://home/userdata/backrokgrounds/Kodi Sport/SK-2.jpg</property>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_ufc.json",return)</onclick>
+			<property name="path">ActivateWindow(Videos,"plugin://plugin.video.madtitansports/get_list/https://magnetic.website/MAD_TITAN_SPORTS/SPORTS/LEAGUE/titansports_ufc.json",return)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-plugin-video-madtitansports-get-list-https-magnetic-website-mad-titan-sports-sports-sports-json-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-num-31958">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">6</property>
+			<label>$LOCALIZE[31485]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>EjectTray()</onclick>
+			<property name="path">EjectTray()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">6</property>
+			<label>$LOCALIZE[600]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.HasMediaAudioCD</visible>
+			<onclick>RipCD</onclick>
+			<property name="path">RipCD</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-alt-num-31958">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">6</property>
+			<label>$LOCALIZE[31485]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>EjectTray()</onclick>
+			<property name="path">EjectTray()</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),num-31958)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">6</property>
+			<label>$LOCALIZE[600]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasMediaAudioCD] + String.IsEqual(Window(10000).Property(submenuVisibility),num-31958)</visible>
+			<onclick>RipCD</onclick>
+			<property name="path">RipCD</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-num-31958-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-num-31958-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-num-31958-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-num-31958-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-settings">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">7</property>
+			<label>$LOCALIZE[7]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(FileManager)</onclick>
+			<property name="path">ActivateWindow(FileManager)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">7</property>
+			<label>Addons</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(AddonBrowser)</onclick>
+			<property name="path">ActivateWindow(AddonBrowser)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">7</property>
+			<label>$LOCALIZE[31159]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>system.getbool(eventlog.enabled)</visible>
+			<onclick>ActivateWindow(Eventlog)</onclick>
+			<property name="path">ActivateWindow(Eventlog)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-alt-settings">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">7</property>
+			<label>$LOCALIZE[7]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(FileManager)</onclick>
+			<property name="path">ActivateWindow(FileManager)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),settings)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">7</property>
+			<label>Addons</label>
+			<label2>Custom item</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ActivateWindow(AddonBrowser)</onclick>
+			<property name="path">ActivateWindow(AddonBrowser)</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),settings)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">7</property>
+			<label>$LOCALIZE[31159]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[system.getbool(eventlog.enabled)] + String.IsEqual(Window(10000).Property(submenuVisibility),settings)</visible>
+			<onclick>ActivateWindow(Eventlog)</onclick>
+			<property name="path">ActivateWindow(Eventlog)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-settings-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-settings-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-settings-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-settings-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-exitkodi">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">8</property>
+			<label>$LOCALIZE[13016]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.CanPowerDown</visible>
+			<onclick>Powerdown()</onclick>
+			<property name="path">Powerdown()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">8</property>
+			<label>$LOCALIZE[13013]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.CanReboot</visible>
+			<onclick>Reset()</onclick>
+			<property name="path">Reset()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">8</property>
+			<label>$LOCALIZE[13009]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.ShowExitButton</visible>
+			<onclick>Quit()</onclick>
+			<property name="path">Quit()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-alt-exitkodi">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">8</property>
+			<label>$LOCALIZE[13016]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanPowerDown] + String.IsEqual(Window(10000).Property(submenuVisibility),exitkodi)</visible>
+			<onclick>Powerdown()</onclick>
+			<property name="path">Powerdown()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">8</property>
+			<label>$LOCALIZE[13013]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanReboot] + String.IsEqual(Window(10000).Property(submenuVisibility),exitkodi)</visible>
+			<onclick>Reset()</onclick>
+			<property name="path">Reset()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">8</property>
+			<label>$LOCALIZE[13009]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.ShowExitButton] + String.IsEqual(Window(10000).Property(submenuVisibility),exitkodi)</visible>
+			<onclick>Quit()</onclick>
+			<property name="path">Quit()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-exitkodi-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-exitkodi-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-exitkodi-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-exitkodi-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-buttonmenu">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13012]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.ShowExitButton</visible>
+			<onclick>Quit()</onclick>
+			<property name="path">Quit()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13016]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.CanPowerDown</visible>
+			<onclick>Powerdown()</onclick>
+			<property name="path">Powerdown()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20150]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>!System.HasAlarm(shutdowntimer) + [System.CanPowerDown | System.CanSuspend | System.CanHibernate]</visible>
+			<onclick>AlarmClock(shutdowntimer,Shutdown())</onclick>
+			<property name="path">AlarmClock(shutdowntimer,Shutdown())</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20151]</label>
+			<label2>$INFO[System.Alarmpos, (,)]</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.HasAlarm(shutdowntimer)</visible>
+			<onclick>CancelAlarm(shutdowntimer)</onclick>
+			<property name="path">CancelAlarm(shutdowntimer)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13011]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.CanSuspend</visible>
+			<onclick>Suspend()</onclick>
+			<property name="path">Suspend()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13010]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.CanHibernate</visible>
+			<onclick>Hibernate()</onclick>
+			<property name="path">Hibernate()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[31576]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.Platform.Linux</visible>
+			<onclick>System.ExecWait("/usr/sbin/rebootfromnand")</onclick>
+			<property name="path">System.ExecWait("/usr/sbin/rebootfromnand")</property>
+			<onclick>Reboot()</onclick>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13013]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.CanReboot</visible>
+			<onclick>Reset()</onclick>
+			<property name="path">Reset()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="9">
+			<property name="id">$NUMBER[9]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20126]</label>
+			<label2>$INFO[system.profilename]</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasLoginScreen | Integer.IsGreater(System.ProfileCount,1)] + System.Loggedon</visible>
+			<onclick>System.LogOff</onclick>
+			<property name="path">System.LogOff</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="10">
+			<property name="id">$NUMBER[10]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20046]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasLocks] + [System.IsMaster]</visible>
+			<onclick>Mastermode</onclick>
+			<property name="path">Mastermode</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="11">
+			<property name="id">$NUMBER[11]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20045]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasLocks] + [!System.IsMaster]</visible>
+			<onclick>Mastermode</onclick>
+			<property name="path">Mastermode</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="12">
+			<property name="id">$NUMBER[12]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13017]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.HasShutdown +!System.IsInhibit</visible>
+			<onclick>InhibitIdleShutdown(true)</onclick>
+			<property name="path">InhibitIdleShutdown(true)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="13">
+			<property name="id">$NUMBER[13]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13018]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>System.HasShutdown + System.IsInhibit</visible>
+			<onclick>InhibitIdleShutdown(false)</onclick>
+			<property name="path">InhibitIdleShutdown(false)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="14">
+			<property name="id">$NUMBER[14]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[1036]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>Dialog.Close(all,true)</onclick>
+			<property name="path">Dialog.Close(all,true)</property>
+			<onclick>ActivateWindow(favouritesbrowser)</onclick>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="15">
+			<property name="id">$NUMBER[15]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20183]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ReloadSkin()</onclick>
+			<property name="path">ReloadSkin()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="16">
+			<property name="id">$NUMBER[16]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20077]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>Dialog.Close(all,true)</onclick>
+			<property name="path">Dialog.Close(all,true)</property>
+			<onclick>ActivateWindow(skinsettings)</onclick>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-alt-buttonmenu">
+		<item id="1">
+			<property name="id">$NUMBER[1]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13012]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.ShowExitButton] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Quit()</onclick>
+			<property name="path">Quit()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="2">
+			<property name="id">$NUMBER[2]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13016]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanPowerDown] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Powerdown()</onclick>
+			<property name="path">Powerdown()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="3">
+			<property name="id">$NUMBER[3]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20150]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[!System.HasAlarm(shutdowntimer) + [System.CanPowerDown | System.CanSuspend | System.CanHibernate]] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>AlarmClock(shutdowntimer,Shutdown())</onclick>
+			<property name="path">AlarmClock(shutdowntimer,Shutdown())</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="4">
+			<property name="id">$NUMBER[4]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20151]</label>
+			<label2>$INFO[System.Alarmpos, (,)]</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasAlarm(shutdowntimer)] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>CancelAlarm(shutdowntimer)</onclick>
+			<property name="path">CancelAlarm(shutdowntimer)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="5">
+			<property name="id">$NUMBER[5]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13011]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanSuspend] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Suspend()</onclick>
+			<property name="path">Suspend()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="6">
+			<property name="id">$NUMBER[6]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13010]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanHibernate] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Hibernate()</onclick>
+			<property name="path">Hibernate()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="7">
+			<property name="id">$NUMBER[7]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[31576]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.Platform.Linux] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>System.ExecWait("/usr/sbin/rebootfromnand")</onclick>
+			<property name="path">System.ExecWait("/usr/sbin/rebootfromnand")</property>
+			<onclick>Reboot()</onclick>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="8">
+			<property name="id">$NUMBER[8]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13013]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.CanReboot] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Reset()</onclick>
+			<property name="path">Reset()</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="9">
+			<property name="id">$NUMBER[9]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20126]</label>
+			<label2>$INFO[system.profilename]</label2>
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[[System.HasLoginScreen | Integer.IsGreater(System.ProfileCount,1)] + System.Loggedon] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>System.LogOff</onclick>
+			<property name="path">System.LogOff</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="10">
+			<property name="id">$NUMBER[10]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20046]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[[System.HasLocks] + [System.IsMaster]] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Mastermode</onclick>
+			<property name="path">Mastermode</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="11">
+			<property name="id">$NUMBER[11]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20045]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[[System.HasLocks] + [!System.IsMaster]] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>Mastermode</onclick>
+			<property name="path">Mastermode</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="12">
+			<property name="id">$NUMBER[12]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13017]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasShutdown +!System.IsInhibit] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>InhibitIdleShutdown(true)</onclick>
+			<property name="path">InhibitIdleShutdown(true)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="13">
+			<property name="id">$NUMBER[13]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[13018]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<visible>[System.HasShutdown + System.IsInhibit] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<onclick>InhibitIdleShutdown(false)</onclick>
+			<property name="path">InhibitIdleShutdown(false)</property>
+			<visible>String.IsEqual(System.ProfileName,A2-ZONE)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="14">
+			<property name="id">$NUMBER[14]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[1036]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>Dialog.Close(all,true)</onclick>
+			<property name="path">Dialog.Close(all,true)</property>
+			<onclick>ActivateWindow(favouritesbrowser)</onclick>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="15">
+			<property name="id">$NUMBER[15]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20183]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>ReloadSkin()</onclick>
+			<property name="path">ReloadSkin()</property>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		<item id="16">
+			<property name="id">$NUMBER[16]</property>
+			<property name="mainmenuid">9</property>
+			<label>$LOCALIZE[20077]</label>
+			<label2 />
+			<icon>DefaultShortcut.png</icon>
+			<thumb />
+			<onclick>Dialog.Close(all,true)</onclick>
+			<property name="path">Dialog.Close(all,true)</property>
+			<onclick>ActivateWindow(skinsettings)</onclick>
+			<visible>[String.IsEqual(System.ProfileName,A2-ZONE)] + String.IsEqual(Window(10000).Property(submenuVisibility),buttonmenu)</visible>
+			<property name="isSubmenu">True</property>
+			</item>
+		</include>
+	<include name="skinshortcuts-group-buttonmenu-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-buttonmenu-1">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-buttonmenu-2">
+		<description>No items</description>
+		</include>
+	<include name="skinshortcuts-group-alt-buttonmenu-2">
+		<description>No items</description>
+		</include>
+	</includes>
